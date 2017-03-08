@@ -1,0 +1,19 @@
+/////////////////////////////////////////////////////// CLASS DEFINITION OF THE PONG IS - /////////////////////////////////////////////////////
+
+class Pong
+{
+  private:
+    int level;
+  public:
+    Ball ball;
+    int nofBumpers;
+    point bumpers[2];
+    void update();
+    void play();
+    void Game_Over();
+    void level_increment();
+    void updateBumpers(point bumper, Ball *ball);
+};
+
+
+////////////////////////////////////////////////////// END OF CLASS - DEFINITION //////////////////////////////////////////////////////////////
